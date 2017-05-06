@@ -8,9 +8,9 @@ The developed project implement the following functionality:
 
 * The project include two apps: Messenger Server App (MSA) and
  Messenger Client App (MCA).
-* The communication between the MCA and MSA will be TCP based
+* The communication between the MCA and MSA based on TCP 
 (control messages).
-* The communication between two MCA’s will be UDP based
+* The communication between two MCA’s based on UDP 
 (interaction between two clients).
 * Messenger Server App and Messenger Client App using a CLI
 * Programming in C++ in eclipse (JavaEE)
@@ -35,15 +35,15 @@ receive his messages.
 ○ In order not to overload the server, all client communication is
 P2P using UDP and does not pass through the server.
 
-6. Messenger Server App CLI:
+## Messenger Server App CLI:
 ○ lu ­ list all users
 ○ lcu ­ list all connected users
-Network Programming Lab by Eliav Menachi
 ○ ls ­ list all sessions (two clients communicating)
 ○ lr ­ list all rooms
 ○ lru <room name> ­ list all users in this room
 ○ x ­ shutdown
-7. Messenger Client App CLI:
+
+## Messenger Client App CLI:
 ○ c <IP> ­ connect to the server in the given ip
 ○ lu ­ print the user list from the server
 ○ lcu ­ print the connected users list
