@@ -32,15 +32,12 @@ Guidelines:
 ○ lr - print all rooms</br>
 ○ lru <room name> - print all users in this room</br>
 ○ login <user> <password> - login with the user and password</br>
-○ register <user> <password> - register the new user with the</br>
-given password and login the user.</br>
+○ register <user> <password> - register the new user with the given password and login the user.</br>
 ○ o <username> - open a session with the user</br>
-○ or <room name> - enter a chat room</br>
-user can be connected to only to one other user or chat room at a
+○ or <room name> - enter a chat room user can be connected to only to one other user or chat room at a
 time, calling o or or commands will disconnect other open session.</br>
 ○ s <message> - send a message</br>
-○ l - print the current status of the client (connected to “xyz”/not
-connected)</br>
+○ l - print the current status of the client (connected to “xyz”/not connected) </br>
 ○ cs - disconnect the open session / exit from a room</br>
 ○ cr <room name> - close a room</br>
 ○ d - disconnect from server</br>
