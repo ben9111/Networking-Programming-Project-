@@ -17,15 +17,16 @@ The developed project implement the following functionality:
 
 Guidelines:
 
-* To connect to the server the client will sign in using a username and a
-password (no encryption required).
+### To connect to the server the client will sign in using a username and a
+password (no encryption required). </br>
 ○ The client can create a new user with a new password (unless
-this user is already created).
+this user is already created).</br>
 ○ To communicate with another client, the user will request to
-open a session with the required user name.
+open a session with the required user name.</br>
 ○ The list of usernames and passwords will be saved into a file in
-the server side.
-5. Chat rooms (conference chat):
+the server side.</br>
+
+### Chat rooms (conference chat):
 ○ The client is able to open a chat room.
 ○ A chat room may be closed only by its creator.
 ○ Each client can enter a chat room or leave it.
