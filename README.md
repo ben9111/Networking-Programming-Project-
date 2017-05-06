@@ -6,13 +6,18 @@ other
 
 The developed project implement the following functionality:
 
-1. The project include two apps: Messenger Server App (MSA) and
+* The project include two apps: Messenger Server App (MSA) and
  Messenger Client App (MCA).
-2. The communication between the MCA and MSA will be TCP based
+* The communication between the MCA and MSA will be TCP based
 (control messages).
-3. The communication between two MCA’s will be UDP based
+* The communication between two MCA’s will be UDP based
 (interaction between two clients).
-4. To connect to the server the client will sign in using a username and a
+* Messenger Server App and Messenger Client App using a CLI
+* Programming in C++ in eclipse (JavaEE)
+
+Guidelines:
+
+* To connect to the server the client will sign in using a username and a
 password (no encryption required).
 ○ The client can create a new user with a new password (unless
 this user is already created).
