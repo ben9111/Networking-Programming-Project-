@@ -13,7 +13,7 @@ The developed project implement the following functionality:
 * The communication between two MCA’s based on UDP 
 (interaction between two clients).
 * Messenger Server App and Messenger Client App using a CLI
-* Programming in C++ in eclipse (JavaEE)
+* Programming in C++ in eclipse (JavaEE) / Linux enviroment
 
 Guidelines:
 
