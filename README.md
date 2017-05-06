@@ -1,4 +1,4 @@
-# Networking-C-
+# Networking-C++ -ChatRoom
 
 The final project is a hybrid P2P and client­server messenger application
 that enable two clients to send and receive messages between one and the
@@ -18,33 +18,33 @@ The developed project implement the following functionality:
 Guidelines:
 
 ## Messenger Server App CLI:
-○ lu ­ list all users</br>
-○ lcu ­ list all connected users</br>
-○ ls ­ list all sessions (two clients communicating)</br>
-○ lr ­ list all rooms</br>
-○ lru <room name> ­ list all users in this room</br>
-○ x ­ shutdown</br>
+○ lu - list all users</br>
+○ lcu - list all connected users</br>
+○ ls - list all sessions (two clients communicating)</br>
+○ lr - list all rooms</br>
+○ lru <room name> - list all users in this room</br>
+○ x - shutdown</br>
 
 ## Messenger Client App CLI:
-○ c <IP> ­ connect to the server in the given ip</br>
-○ lu ­ print the user list from the server</br>
-○ lcu ­ print the connected users list</br>
-○ lr ­ print all rooms</br>
-○ lru <room name> ­ print all users in this room</br>
-○ login <user> <password> ­ login with the user and password</br>
-○ register <user> <password> ­ register the new user with the</br>
+○ c <IP> - connect to the server in the given ip</br>
+○ lu - print the user list from the server</br>
+○ lcu - print the connected users list</br>
+○ lr - print all rooms</br>
+○ lru <room name> - print all users in this room</br>
+○ login <user> <password> - login with the user and password</br>
+○ register <user> <password> - register the new user with the</br>
 given password and login the user.</br>
-○ o <username> ­ open a session with the user</br>
-○ or <room name> ­ enter a chat room</br>
+○ o <username> - open a session with the user</br>
+○ or <room name> - enter a chat room</br>
 user can be connected to only to one other user or chat room at a
 time, calling o or or commands will disconnect other open session.</br>
-○ s <message> ­ send a message</br>
-○ l ­ print the current status of the client (connected to “xyz”/not
+○ s <message> - send a message</br>
+○ l - print the current status of the client (connected to “xyz”/not
 connected)</br>
-○ cs ­ disconnect the open session / exit from a room</br>
-○ cr <room name> ­ close a room</br>
-○ d ­ disconnect from server</br>
-○ x ­ close the app</br>
+○ cs - disconnect the open session / exit from a room</br>
+○ cr <room name> - close a room</br>
+○ d - disconnect from server</br>
+○ x - close the app</br>
 
 
 ### To connect to the server the client will sign in using a username and a password (no encryption required):
