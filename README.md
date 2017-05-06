@@ -1,4 +1,4 @@
-# Networking-C++ -ChatRoom
+# Networking-Programming-Project , ChatRoom , C++
 
 The final project is a hybrid P2P and client­server messenger application
 that enable two clients to send and receive messages between one and the
